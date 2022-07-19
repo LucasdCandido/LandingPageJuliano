@@ -1,0 +1,214 @@
+html,
+body {
+  background-image: linear-gradient(to bottom, #e7e7e7, #ffffff);
+  font: 100% 'Poppins', --apple-system, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+
+.logoprincipal {
+  width: 145px;
+}
+
+.espacamentonavbar {
+  padding: 0 5vh;
+  margin: 0 5vh;
+}
+li > .textonav {
+  font-weight: bold;
+  color: black;
+}
+li > .textonav:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  flex-direction: column;
+}
+
+.back {
+  background-image: url(../img/back.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 15vw;
+  object-fit: fill;
+  object-position: top 50% left 50%;
+}
+
+.titulo {
+  font-size: larger;
+  text-align: center;
+  padding-top: 2vw;
+  color: rgb(255, 230, 0);
+  text-shadow: 1px 1px 1px black;
+}
+
+.card {
+  margin: 5px 2.5px;
+}
+
+.subheading {
+  text-align: center;
+  font-weight: bold;
+  margin: 1.2rem auto;
+}
+
+.yellow {
+  color: #FFE600;
+  text-shadow: 1px 1px 1px black;
+}
+
+.informacao {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+p,
+.alinhamento {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0.2px 0.2px silver;
+}
+.conteudocard {
+  text-align: center;
+  font: 1.2rem medium black;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+  color: black;
+}
+.logo {
+  width: 17px;
+  height: 17px;
+}
+
+.conteudo {
+  width: 75vw;
+  text-align: justify;
+  margin: 1.2rem auto;
+  text-shadow: 1px 1px 1px rgb(255, 230, 0);
+}
+
+.conteudorestante {
+  width: 45vw;
+  margin: 1.2rem auto;
+}
+
+.servico {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1.2rem auto;
+  text-shadow: 0.2px 0.2px silver;
+}
+.imagempromocao {
+  width: 15vw;
+  height: 15vw;
+  margin: 1.5vw;
+}
+ul > li {
+  padding-left: 5vw;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.img-carrosel {
+  object-fit: cover;
+  object-position: center;
+  width: 90vw;
+  height: 600px;
+  margin: 1.2rem auto;
+}
+
+.header {
+  align-items: center;
+}
+
+.reserva {
+  width: 95vw;
+  height: auto;
+  background-color: white;
+  margin: 1.2rem auto;
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.hotel {
+  width: 80vw;
+  height: auto;
+  background-color: white;
+  margin: 1.2rem auto;
+  padding: 1.2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* lucas */
+
+.mid-title {
+  width: 95vw;
+  height: auto;
+  background-color: white;
+  margin: 1.2rem auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.final {
+  padding: 2.5vw;
+  text-align: center;
+  margin: 0 auto;
+}
+.mapa {
+  width: 80vw;
+  height: 15vw;
+}
+.redes {
+  margin: 5vw;
+  margin-bottom: 11vw;
+}
+.botao {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: end;
+  margin: 1vw;
+  margin-left: auto;
+  z-index: 1030;
+}
+
+@media screen and (max-width: 930px) {
+  .txt-abertura {
+    visibility: hidden;
+  }
+  .titulo {
+    padding-top: 6vw;
+    font-size: 2rem;
+  }
+  .redes {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 690px) {
+  .titulo {
+    padding-top: 2.5vw;
+    font-size: 1.5rem;
+  }
+  .redes {
+    margin: auto;
+  }
+}
