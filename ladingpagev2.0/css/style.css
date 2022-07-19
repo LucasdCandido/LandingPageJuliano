@@ -1,0 +1,354 @@
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-sacramento: 'Sacramento', cursive;
+}
+body {
+  font-family: var(--font-poppins);
+}
+.logo {
+  background: #eeeded;
+  opacity: 85%;
+  object-fit: contain;
+  margin: 0 auto;
+  height: 10.5vw;
+}
+.back {
+  background-image: url(../img/back.webp);
+  background-size: 85vw 90vw;
+  background-repeat: no-repeat;
+  background-position: top, center;
+  position: relative;
+  top: 0;
+}
+.tituloprincipal {
+  font-family: var(--font-sacramento);
+  color: #ffe600;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 21vw;
+  padding: 0 7.5vw;
+}
+.razao {
+  margin-top: 68vw;
+}
+.espacorazao {
+  margin: 6vw 0;
+}
+.img-card-atracao {
+  width: 48vw;
+  height: 40vw;
+  object-fit: cover;
+  object-position: center;
+}
+.width-card-atracao {
+  width: 48vw;
+}
+.logozap {
+  width: 23.5px;
+}
+.sobre {
+  margin-top: 10px;
+  width: 100vw;
+  height: 70vw;
+  padding: 2.5vw;
+  left: 0vw;
+}
+.img-pantanal {
+  max-width: 50vw;
+  right: 0;
+  z-index: 1;
+  left: 45vw;
+}
+.text-pantanal {
+  background-color: #ededed;
+  opacity: 75%;
+  z-index: 2;
+  max-width: 46vw;
+  bottom: 53vw;
+  left: 5vw;
+}
+.text-titulo {
+  font-size: calc(1vw + 1.5rem);
+  padding: 2.5vw;
+}
+.text-paragrafo {
+  font-size: calc(1vw + 0.8rem);
+  padding: 0 2.5vw;
+}
+.quarto {
+  height: 59vw;
+}
+.card-quarto {
+  width: 52vw;
+  height: auto;
+  padding: 2.5vw;
+  background-color: #ededed;
+  opacity: 75%;
+  position: relative;
+  top: 16vw;
+  left: 8vw;
+  z-index: 1;
+}
+.img-quarto {
+  width: 60vw;
+  position: relative;
+  top: -17vw;
+  right: 1vw;
+  z-index: 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.corumba {
+  background-color: #d9d9d9;
+}
+
+.corumba-article {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-cachoeira {
+  width: 22vw;
+  height: 30vw;
+}
+.img-cristo,
+.img-paragua {
+  width: 32vw;
+  height: 13.5vw;
+  object-fit: cover;
+  object-position: top;
+}
+.titulocorumba {
+  color: #969292;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #5f5713;
+  text-align: center;
+}
+.conteudocorumba {
+  color: #ffe600;
+  font-family: var(--font-sacramento);
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+.conteudocuriosidade {
+  max-width: 40vw;
+}
+.corumbacuriosidade {
+  color: #969292;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #5f5713;
+}
+.conteudolocalizacao {
+  margin: 3vw auto;
+}
+.localizacao {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5f5713;
+  font-weight: bold;
+  margin: 3vw;
+}
+.mapa {
+  width: 45vw;
+  height: 35vw;
+}
+.footer-bg {
+  background-color: #ededed;
+}
+.logofooter {
+  background-color: #e3e0dd;
+  width: 12vw;
+  margin-top: 5vw;
+}
+.contato {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5f5713;
+  text-align: center;
+}
+.link-contato {
+  color: #969292;
+  text-shadow: 1px 1px 1px #5f5713;
+  text-decoration: none;
+}
+.link-contato:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  .espacorazao {
+    font-weight: bold;
+    font-size: calc(1vw + .9rem); 
+  }
+  .img-card-atracao,
+  .width-card-atracao {
+    width: auto;
+    padding: 2.5vw 2.5vw;
+  }
+  .text-titulo {
+    font-size: calc(1vw + 0.8rem);
+    padding: 2.5vw;
+  }
+  .text-paragrafo {
+    font-size: 2px;
+    padding: 0 2.5vw;
+  }
+  .text-pantanal {
+    background-color: #ededed;
+    opacity: 75%;
+    z-index: 2;
+    max-width: 80vw;
+    top: -96vw;
+    left: 8.5vw;
+  }
+  .img-pantanal {
+    max-width: 90vw;
+    height: 110vw;
+    object-fit: cover;
+    object-position: bottom;
+    right: 0;
+    z-index: 1;
+    left: 5vw;
+  }
+  .sobre {
+    height: 129vw !important;
+  }
+  .quarto {
+    display: flexbox;
+  }
+  .card-quarto {
+    position: unset;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .img-quarto {
+    position: unset;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .div-quarto {
+    float: none !important;
+    margin-left: 9.5vw;
+  }
+  .razao > article {
+    text-align: center !important;
+  }
+  .quarto {
+    height: 130vw !important;
+  }
+  .conteudocorumba {
+    display: none;
+  }
+  .img-cristo,
+  .img-paragua {
+    width: auto;
+    height: 35vw;
+    object-fit: cover;
+    object-position: top;
+  }
+  .img-paragua {
+    margin-bottom: 5vw;
+  }
+  .conteudocuriosidade {
+    width: auto;
+    padding-left: 0;
+  }
+  .corumbacuriosidade {
+    margin: 2.5vw 1.5rem !important;
+  }
+  .logofooter {
+    /* margin: 5vw 41.5%; */
+    width: 30vw;
+  }
+  .contato {
+    text-align: center;
+  }
+  article>ul {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .img-cafe {
+    object-position: bottom;
+  }
+  .sobre {
+    height: 95vw;
+  }
+  .quarto {
+    height: 99vw;
+  }
+  .card-quarto > p {
+    font-size: 1rem !important;
+  }
+  .corumba {
+    text-align: center;
+    padding:3rem 0!important;
+  }
+  .img-cachoeira {
+    display: none;
+  }
+
+  .img-cristo,
+  .img-paragua,
+  .conteudocuriosidade {
+    width: 82vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .corumbacuriosidade {
+    width: 80vw !important;
+    margin: 2.5vw 7.5vw !important;
+  }
+  .footer-bg {
+    display: flex;
+    flex-direction: column;
+  }
+  .logoalinhamento {
+    margin: 0 auto;
+  }
+  .logofooter {
+    /* margin: 5vw 41.5%; */
+    width: 25vw;
+  }
+  .lista {
+    padding-left: 0!important;
+  }
+  .contato {
+    text-align: center;
+  }
+}
+
+.article-images {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+@media screen and (max-width: 821px) {
+  .corumba-article {
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .article-images {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .text-titulo {
+    font-size: calc(1vw + 1rem);
+    padding: 2.5vw;
+  }
+  .text-paragrafo {
+    font-size: calc(1vw + 0.6rem);
+    padding: 0 2.5vw;
+  }
+  .quarto {
+    height: 70vw;
+  }
+}
